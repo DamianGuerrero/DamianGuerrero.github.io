@@ -44,10 +44,10 @@ a[href] {
 
 a:hover {
     color: rgb(255, 255, 255);
-    color: rgba(255, 255, 255, 0.658);
+    color: #8f8f8f;
 }
 
-.youtubeLink {
+main .youtubeLink {
     color: red;
 }
 
@@ -55,7 +55,7 @@ a:hover {
     color: rgb(255, 88, 88);
 }
 
-table {
+table .fList {
     border-collapse: collapse; /* This ensures that adjacent table borders merge into one */
     font-family: "Poppins", sans-serif;
     font-size: 15px;
