@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(to bottom, #484848, #3b3b3b, #2e2e2e, #222222, #161616);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav ol {
+    list-style-position: inside; /* Place the list numbers next to the list items */
+    padding-left: 0; /* Remove the default left padding on the list */
+}
+
+h1 {
+    font-size: 30px;
+}
+
+header {
+    font-style: italic;
+}
+
+.pText {
+    font-weight: lighter;
+}
+
+.lList {
+    border: 1px solid white;
+    border-radius: 15px;
+    display: inline-block;/* Makes sure the box only goes to the end of the content and not the entire page */
+    padding-right: 25px;/* Adds space so that the box is not touching the content */
+}
+
+.lList img {
+    border-radius: 8px;
+}
+
+iframe {
+    border: none;
+}
+
+a[href] {
+    color: rgb(207, 207, 207);
+    font-family: "Poppins", sans-serif;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.youtubeLink {
+    color: red;
+}
+
+.youtubeLink:hover {
+    color: rgb(255, 88, 88);
+}
+
+table {
+    border-collapse: collapse; /* This ensures that adjacent table borders merge into one */
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid white; /* Add borders to table cells (th and td) */
+    padding: 8px; /* Add some padding for spacing */
+    text-align: left; /* Adjust the text alignment as needed */
+}
+
+tr:hover {
+    background-color: #484848; /* Change the background color on hover for better visibility */
+}
+
+.fList {
+    padding-left: 250px;
+    padding-right: 250px;
+}
