@@ -35,11 +35,11 @@ header {
 
 iframe {
     border: none;
+    max-width: 100%;
 }
 
 a[href] {
     color: rgb(207, 207, 207);
-    font-family: "Poppins", sans-serif;
 }
 
 a:hover {
@@ -57,18 +57,17 @@ main .youtubeLink {
 
 table .fList {
     border-collapse: collapse; /* This ensures that adjacent table borders merge into one */
-    font-family: "Poppins", sans-serif;
     font-size: 15px;
     width: 100%;
 }
 
-th, td {
+.fList th, .fList td {
     border: 1px solid white; /* Add borders to table cells (th and td) */
     padding: 8px; /* Add some padding for spacing */
-    text-align: left; /* Adjust the text alignment as needed */
+    text-align: center; /* Adjust the text alignment as needed */
 }
 
-tr:hover {
+.fList tr:hover {
     background-color: #484848; /* Change the background color on hover for better visibility */
 }
 
@@ -77,6 +76,48 @@ tr:hover {
     padding-right: 250px;
 }
 
+/* Adjusted padding for smaller screens */
+@media (max-width: 768px) {
+    .fList {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 .fList img {
     border-radius: 8px;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+    .fList {
+      font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Reset some styles to create a vertical list */
+    .fList {
+      width: auto; /* Allow the table to expand with content */
+    }
+  
+    .fList th,
+    .fList td {
+      display: block; /* Convert table cells to block elements */
+      width: 100%; /* Take up the full width of the container */
+      box-sizing: border-box; /* Include padding and border in width */
+    }
+  
+    .fList th {
+      font-weight: bold; /* Optionally make headers bold */
+    }
+  
+    .fList tr {
+      margin-bottom: 20px; /* Add space between list items */
+    }
+  
+    /* Adjust font size for smaller screens */
+    .fList {
+      font-size: 12px;
+    }
 }
