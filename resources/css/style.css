@@ -72,8 +72,8 @@ table .fList {
 }
 
 .fList {
-    padding-left: 250px;
-    padding-right: 250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Adjusted padding for smaller screens */
