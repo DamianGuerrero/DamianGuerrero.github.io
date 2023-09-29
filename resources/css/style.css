@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: "Poppins", sans-serif;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 nav ol {
@@ -104,24 +105,34 @@ table .fList {
     .fList {
       width: auto; /* Allow the table to expand with content */
     }
-  
+
     .fList th,
     .fList td {
       display: block; /* Convert table cells to block elements */
       width: 100%; /* Take up the full width of the container */
       box-sizing: border-box; /* Include padding and border in width */
     }
-  
+
     .fList th {
       font-weight: bold; /* Optionally make headers bold */
     }
-  
+
     .fList tr {
       margin-bottom: 20px; /* Add space between list items */
     }
-  
+
     /* Adjust font size for smaller screens */
     .fList {
       font-size: 12px;
+    }
+}
+
+.zzwSpotify {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .zzwSpotify {
+        width: auto;
     }
 }
