@@ -55,6 +55,10 @@ main .youtubeLink {
     color: rgb(255, 88, 88);
 }
 
+.youtubeImage {
+    border-radius: 90px;
+}
+
 table .fList {
     border-collapse: collapse; /* This ensures that adjacent table borders merge into one */
     font-size: 15px;
